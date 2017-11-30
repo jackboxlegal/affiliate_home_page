@@ -381,19 +381,19 @@ h4.cmd {
     height: 23px
 }
 
-.cmd-question {
+.cmd-middle-text-area {
     padding: 30px;
     margin: 0
 }
 
-.cmd-question-button,
-.cmd-question-button:hover {
+.cmd-middle-text-area-button,
+.cmd-middle-text-area-button:hover {
     color: #fff!important;
     width: 100%;
     text-decoration: none
 }
 
-.cmd-question-button {
+.cmd-middle-text-area-button {
     font-size: 10pt;
     padding: 10px 25px;
     -moz-border-radius: 10px;
@@ -404,79 +404,45 @@ h4.cmd {
     border: 1px solid #33c3de
 }
 
-.cmd-question-button:hover {
+.cmd-middle-text-area-button:hover {
     border: 1px solid #08638c;
     background: #08638c
 }
 
-.cmd-under-questions {
+.cmd-middle-text-area {
     border: 0 solid #00f;
     padding-bottom: 30px;
     padding-left: 0;
     padding-right: 0
 }
 
-.cmd-under-questions-image-item {
+.cmd-middle-text-area-item {
     border: 0 solid red;
     padding-left: 20px
 }
 
-.cmd-under-questions-image {
+.cmd-middle-text-area-image {
     border: 8px solid #fff;
     margin-top: 40px
 }
 
-.cmd-under-questions-news-item {
+.cmd-middle-text-area {
     border: 0 solid red;
     padding-left: 0;
     padding-top: 25px;
     padding-bottom: 30px
 }
 
-.cmd-under-questions-story-snippet {
+.cmd-middle-text-area-snippet {
     border: 0 solid red;
     padding: 0
 }
 
-.cmd-under-questions-title {
+.cmd-middle-text-area-title {
     font-weight: 700;
     font-size: 18pt
 }
 
-.cmd-claim-calc-header-text-area {
-    padding: 0 0 30px
-}
-
-.cmd-claim-calc-header-text {
-    font-size: 18pt;
-    margin-bottom: 0
-}
-
-.cmd-claim-calc-header-text-blue {
-    color: #33c3de;
-    font-size: 16pt;
-    padding-bottom: 0
-}
-
-.claim-calculator-border,
-h3.cmd span {
-    color: #fff;
-    background-color: #08638c;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    border-radius: 15px
-}
-
-.claim-calculator-border-left-lg {
-    color: #fff;
-    padding-top: 20px;
-    min-height: 600px
-}
-
-.claim-calculator-border-right-lg {
-    color: #fff;
-    padding-top: 20px
-}
 
 .cmd-info-header-text,
 h3.cmd {
@@ -615,7 +581,7 @@ h2.cmd-website-homepage-strapline-blue {
 
 .cmd_website_background_footer_house {
     background-position: center center;
-    height: 400px;
+    padding: 20px 0px 50px 0px;
     background-color: #1D2F56;
     background-image: url('//example.png')
 }
@@ -1641,10 +1607,11 @@ a.rollover:active {
     margin: 0
 }
 
+
 .cmd-website-footer-line {
-    border-top: 12px solid #07638c;
-    padding: 0;
-    margin: 0
+    border-top: 20px solid #6fa1cd;
+    padding: 0px;
+    margin: 0px;
 }
 
 .cmd-website-footer-badges {
@@ -1719,7 +1686,7 @@ a.rollover:active {
 .cmd-website-footer-column-header {
     color: #fff;
     display: inline;
-    padding: 2px 5px
+    padding: 2px 5px 2px 5px;
 }
 
 .cmd-green-tick {
