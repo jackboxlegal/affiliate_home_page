@@ -528,6 +528,11 @@ h2.cmd-website-homepage-strapline-blue {
     max-height: 1280px
 }
 
+.cmd_affiliate_login_form{
+    margin: 0 auto;
+    width: 45% /* value of your choice which suits your alignment */
+}
+
 .cmd-website-navbar-strip {
     background-color: #08638c;
     margin: 0;
